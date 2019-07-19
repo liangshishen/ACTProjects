@@ -1,0 +1,20 @@
+# server(eureka默认端口为:8761)
+server:
+  port: 7900
+
+# spring
+spring:
+  application:
+    name: provider-user
+
+# eureka
+eureka:
+  client:
+    service-url:
+      # eureka服务器的地址(注意：地址最后的 /eureka 是固定的)
+      defaultZone: http://user:password123@localhost:8761/eureka
+
+# logging
+logging:
+  level:
+    root: info
