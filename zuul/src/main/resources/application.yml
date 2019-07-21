@@ -15,10 +15,14 @@ eureka:
 
 # zuul
 zuul:
+  ignored-services: '*'
   routes:
-    app-a:
+    app-user:
       path: /user/**
       serviceId: consumer-hystrix
+    app-sidecar:
+      path: /sidecar/**
+      serviceId: spring-cloud-sidecar
 
 # logging
 logging:

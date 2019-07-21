@@ -8,6 +8,11 @@
         <option value="$PROJECT_DIR$/consumer-client/pom.xml" />
         <option value="$PROJECT_DIR$/provider-user2/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sidecar/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
   </component>
