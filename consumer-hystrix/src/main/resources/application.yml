@@ -1,11 +1,11 @@
 # server
 server:
-  port: 7901
+  port: 9001
 
 # spring
 spring:
   application:
-    name: provider-user
+    name: consumer-hystrix
 
 # eureka
 eureka:

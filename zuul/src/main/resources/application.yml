@@ -1,17 +1,24 @@
 # server
 server:
-  port: 7901
+  port: 8050
 
 # spring
 spring:
   application:
-    name: provider-user
+    name: spring-cloud-zuul
 
 # eureka
 eureka:
   client:
     service-url:
       defaultZone: http://user:password123@localhost:8761/eureka
+
+# zuul
+zuul:
+  routes:
+    app-a:
+      path: /user/**
+      serviceId: consumer-hystrix
 
 # logging
 logging:
